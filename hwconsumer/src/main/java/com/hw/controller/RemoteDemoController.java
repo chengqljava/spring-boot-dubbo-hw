@@ -9,7 +9,7 @@ import com.hw.service.DemoService;
 
 @RestController
 public class RemoteDemoController {
-	@Reference(version = "1.0.0")
+	@Reference(version = "${demo.service.version}")
 	private DemoService demoService;
 	
 	@RequestMapping(value="/dubbo/say/{name}")

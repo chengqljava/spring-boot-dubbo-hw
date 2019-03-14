@@ -7,10 +7,9 @@
 		<artifactId>spring-boot-dubbo-hw</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>hwprovider</artifactId>
+	<artifactId>hwprovider2</artifactId>
 	<packaging>jar</packaging>
 	<dependencies>
-	
 		<dependency>
 			<groupId>com.alibaba.boot</groupId>
 			<artifactId>dubbo-spring-boot-starter</artifactId>
@@ -28,7 +27,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>hwprovider</finalName>
+		<finalName>hwprovider2</finalName>
 		<plugins>
 			<plugin>
 				<!-- The plugin rewrites your manifest -->
