@@ -12,6 +12,7 @@ public class RemoteDemoController {
 	@Reference(version = "${demo.service.version}")
 	private DemoService demoService;
 	
+	
 	@RequestMapping(value="/dubbo/say/{name}")
     public String sayHello(@PathVariable("name") String name){
 
