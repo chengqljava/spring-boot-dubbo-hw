@@ -17,7 +17,7 @@ public class DemoServiceImpl implements DemoService {
 	public String say(String hello) {
 		// TODO Auto-generated method stub
 		System.out.println("provider"+hello);
-		//userService.testMapper();
+		userService.testMapper();
 		userService.readMapper();
 		return "hello+world";
 	}
